@@ -1,0 +1,48 @@
+[gd_scene load_steps=5 format=3 uid="uid://gm0hyy0bcxtx"]
+
+[ext_resource type="Texture2D" uid="uid://slko7akn7wo5" path="res://Wolf-PNG-Photo.png" id="1_75uus"]
+[ext_resource type="Texture2D" uid="uid://bbtxi6ckj4g58" path="res://Tree.png" id="2_ep6cm"]
+[ext_resource type="Texture2D" uid="uid://cuegcks3e16xp" path="res://white rabbit.png" id="3_0db50"]
+[ext_resource type="Texture2D" uid="uid://dlrw1twskq1s6" path="res://grass.png" id="4_2y5ip"]
+
+[node name="mainScene" type="Node2D"]
+position = Vector2(29, 429)
+scale = Vector2(0.1, 0.1)
+
+[node name="Wolf" type="Sprite2D" parent="."]
+position = Vector2(5270, -1280)
+rotation = 3.14159
+scale = Vector2(1.7472, -1.16253)
+texture = ExtResource("1_75uus")
+
+[node name="tree" type="Sprite2D" parent="."]
+position = Vector2(700, -2080)
+scale = Vector2(1.24, 1.96051)
+texture = ExtResource("2_ep6cm")
+
+[node name="Rabbit1" type="Sprite2D" parent="."]
+position = Vector2(1590, -1330)
+scale = Vector2(0.440392, 0.407983)
+texture = ExtResource("3_0db50")
+
+[node name="Rabbit2" type="Sprite2D" parent="Rabbit1"]
+position = Vector2(1045.39, 486.306)
+scale = Vector2(0.779661, 0.653404)
+texture = ExtResource("3_0db50")
+
+[node name="grass1" type="Sprite2D" parent="."]
+position = Vector2(1250, -1150)
+rotation = 3.14159
+scale = Vector2(2.99647, -2.34889)
+texture = ExtResource("4_2y5ip")
+
+[node name="grass2" type="Sprite2D" parent="grass1"]
+position = Vector2(-994.503, 97.9217)
+scale = Vector2(1.28696, 0.765492)
+texture = ExtResource("4_2y5ip")
+
+[node name="grass3" type="Sprite2D" parent="grass1"]
+position = Vector2(-1708.68, 114.953)
+rotation = 3.14159
+scale = Vector2(0.542215, -0.733003)
+texture = ExtResource("4_2y5ip")
