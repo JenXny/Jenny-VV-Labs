@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b6lvc5x7rnlf3"]
+
+[node name="ColorRect" type="ColorRect"]
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 259.0
+offset_bottom = 238.0
+color = Color(0.524393, 0.773185, 0.35828, 1)
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 91.0
+offset_top = 194.0
+offset_right = 153.0
+offset_bottom = 482.0
+color = Color(0.60835, 0.394977, 0.223264, 1)

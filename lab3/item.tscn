@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxdghd334yqt5"]
+
+[ext_resource type="Texture2D" uid="uid://ci01htxsp0ep1" path="res://rupert.png" id="1_kjqrk"]
+
+[sub_resource type="GDScript" id="GDScript_p78x4"]
+script/source = "extends Sprite2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+func _on_area_2d_areas_entered(area):
+	hide()
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[node name="rupert bear item" type="Sprite2D"]
+position = Vector2(642, 558)
+scale = Vector2(0.240234, 0.174288)
+texture = ExtResource("1_kjqrk")
+script = SubResource("GDScript_p78x4")

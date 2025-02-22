@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4ncf0ufj8syv"]
+
+[ext_resource type="Texture2D" uid="uid://cawlbyclr75hf" path="res://stewie.png" id="1_fcicv"]
+[ext_resource type="Script" path="res://stewie.gd" id="2_3fjdv"]
+
+[node name="stewie" type="Sprite2D"]
+position = Vector2(-162.912, 118.555)
+scale = Vector2(0.0791124, 0.236915)
+texture = ExtResource("1_fcicv")
+flip_h = true
+script = ExtResource("2_3fjdv")
